@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Next主题配置]]></title>
+    <url>%2F2018%2F03%2F08%2F%E5%8F%91%E5%B8%83%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[参考文章： http://theme-next.iissnan.com/getting-started.html https://zhuanlan.zhihu.com/p/28128674 设置头像主题配置文件：avatar，URI 或者 放在放置在 source/images/ 目录下 配置为：avatar: /images/avatar.png 作者昵称和描述站点配置文件： deauthor 和 description 图标主题配置文件：1234favicon: small: /images/favicon.ico medium: /images/favicon.ico apple_touch_icon: /images/favicon.ico 激活标签1hexo new page tags 1D:\zhouxiaodi0223.github.io\source\Tags 修改为 12345title: 标签date: 2018-03-07 05:09:09type: &quot;tags&quot;comments: false //集成评论服务，页面也会带有评论。 这里选择关闭--- 既活分类1hexo new page categories 12345title: 分类date: 2014-12-22 12:39:04type: &quot;categories&quot;comments: false--- 站点建立时间1主题配置文件，since: 2017 提交1将CNAME 放入 D:\zhouxiaodi0223.github.io\source 更改音乐将外链插入到hexo/themes/next/layout/_macro文件夹中的 sidebar.swig文件中 1234&lt;div id=&quot;music163player&quot;&gt; &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=280 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=436514312&amp;auto=1&amp;height=66&quot;&gt; //这个链接可以更改歌曲 &lt;/iframe&gt;&lt;/div&gt; 文章12345678910title: 标签测试文章tags: - Testing - Another Tagcategories: Testingphotos: - http://bruce.u.qiniudn.com/2013/11/27/reading/photos-0.jpg - http://bruce.u.qiniudn.com/2013/11/27/reading/photos-1.jpgpassword：XXXX---]]></content>
+      <categories>
+        <category>自娱自乐</category>
+      </categories>
+      <tags>
+        <tag>折腾</tag>
+        <tag>建站</tag>
+      </tags>
+  </entry>
+</search>

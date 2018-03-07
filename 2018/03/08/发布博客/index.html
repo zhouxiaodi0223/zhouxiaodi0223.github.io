@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="折腾,建站," />
 
 
 
@@ -79,13 +79,18 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="周小迪">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="参考文章： http://theme-next.iissnan.com/getting-started.html https://zhuanlan.zhihu.com/p/28128674">
+<meta name="keywords" content="折腾,建站">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Next主题配置">
+<meta property="og:url" content="http://yoursite.com/2018/03/08/发布博客/index.html">
 <meta property="og:site_name" content="周小迪">
+<meta property="og:description" content="参考文章： http://theme-next.iissnan.com/getting-started.html https://zhuanlan.zhihu.com/p/28128674">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2018-03-07T21:20:59.678Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="周小迪">
+<meta name="twitter:title" content="Next主题配置">
+<meta name="twitter:description" content="参考文章： http://theme-next.iissnan.com/getting-started.html https://zhuanlan.zhihu.com/p/28128674">
 
 
 
@@ -115,13 +120,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/03/08/发布博客/"/>
 
 
 
 
 
-  <title>周小迪</title>
+  <title>Next主题配置 | 周小迪</title>
   
 
 
@@ -140,8 +145,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 	<a href="https://github.com/zhouxiaodi0223"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
 
@@ -269,9 +273,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -301,9 +305,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/03/08/发布博客/" itemprop="url">Next主题配置</a></h1>
+          <h1 class="post-title" itemprop="name headline">Next主题配置</h1>
         
 
         <div class="post-meta">
@@ -375,19 +377,24 @@
       
 
       
-        
-          <pre><code>参考文章：
+        <pre><code>参考文章：
 http://theme-next.iissnan.com/getting-started.html
 https://zhuanlan.zhihu.com/p/28128674
-</code></pre>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/03/08/发布博客/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
+</code></pre><a id="more"></a>
+<h2 id="设置头像"><a href="#设置头像" class="headerlink" title="设置头像"></a>设置头像</h2><p>主题配置文件：avatar，URI 或者 放在放置在 source/images/ 目录下 配置为：avatar: /images/avatar.png</p>
+<h2 id="作者昵称和描述"><a href="#作者昵称和描述" class="headerlink" title="作者昵称和描述"></a>作者昵称和描述</h2><p>站点配置文件： deauthor 和 description</p>
+<h2 id="图标"><a href="#图标" class="headerlink" title="图标"></a>图标</h2><p>主题配置文件：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">favicon:</span><br><span class="line">  small: /images/favicon.ico</span><br><span class="line">  medium: /images/favicon.ico</span><br><span class="line">  apple_touch_icon: /images/favicon.ico</span><br></pre></td></tr></table></figure></p>
+<h2 id="激活标签"><a href="#激活标签" class="headerlink" title="激活标签"></a>激活标签</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">D:\zhouxiaodi0223.github.io\source\Tags</span><br></pre></td></tr></table></figure>
+<p>修改为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">title: 标签</span><br><span class="line">date: 2018-03-07 05:09:09</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">comments: false  //集成评论服务，页面也会带有评论。 这里选择关闭</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h2 id="既活分类"><a href="#既活分类" class="headerlink" title="既活分类"></a>既活分类</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">title: 分类</span><br><span class="line">date: 2014-12-22 12:39:04</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">comments: false</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h2 id="站点建立时间"><a href="#站点建立时间" class="headerlink" title="站点建立时间"></a>站点建立时间</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">主题配置文件，since: 2017</span><br></pre></td></tr></table></figure>
+<h2 id="提交"><a href="#提交" class="headerlink" title="提交"></a>提交</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">将CNAME 放入 D:\zhouxiaodi0223.github.io\source</span><br></pre></td></tr></table></figure>
+<h2 id="更改音乐"><a href="#更改音乐" class="headerlink" title="更改音乐"></a>更改音乐</h2><p>将外链插入到hexo/themes/next/layout/_macro文件夹中的 sidebar.swig文件中</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&lt;div id=&quot;music163player&quot;&gt;</span><br><span class="line">    &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; width=280 height=86 src=&quot;//music.163.com/outchain/player?type=2&amp;id=436514312&amp;auto=1&amp;height=66&quot;&gt;   //这个链接可以更改歌曲</span><br><span class="line">    &lt;/iframe&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="文章"><a href="#文章" class="headerlink" title="文章"></a>文章</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">title: 标签测试文章</span><br><span class="line">tags:</span><br><span class="line">  - Testing</span><br><span class="line">  - Another Tag</span><br><span class="line">categories: Testing</span><br><span class="line">photos:</span><br><span class="line"> - http://bruce.u.qiniudn.com/2013/11/27/reading/photos-0.jpg</span><br><span class="line"> - http://bruce.u.qiniudn.com/2013/11/27/reading/photos-1.jpg</span><br><span class="line">password：XXXX</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
       
     </div>
     
@@ -398,6 +405,12 @@ https://zhuanlan.zhihu.com/p/28128674
 
 	<div>
     
+    <div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">------ 本文结束------</div>
+    
+</div>
+    
     </div>
  
     
@@ -406,14 +419,22 @@ https://zhuanlan.zhihu.com/p/28128674
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/折腾/" rel="tag"><i class="fa fa-tag"></i> 折腾</a>
+          
+            <a href="/tags/建站/" rel="tag"><i class="fa fa-tag"></i> 建站</a>
+          
+        </div>
+      
+
+      
+      
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -423,10 +444,11 @@ https://zhuanlan.zhihu.com/p/28128674
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -434,6 +456,10 @@ https://zhuanlan.zhihu.com/p/28128674
 
 
           
+
+  
+
+
 
         </div>
         
@@ -454,8 +480,17 @@ https://zhuanlan.zhihu.com/p/28128674
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -519,6 +554,22 @@ https://zhuanlan.zhihu.com/p/28128674
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#设置头像"><span class="nav-number">1.</span> <span class="nav-text">设置头像</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#作者昵称和描述"><span class="nav-number">2.</span> <span class="nav-text">作者昵称和描述</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#图标"><span class="nav-number">3.</span> <span class="nav-text">图标</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#激活标签"><span class="nav-number">4.</span> <span class="nav-text">激活标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#既活分类"><span class="nav-number">5.</span> <span class="nav-text">既活分类</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#站点建立时间"><span class="nav-number">6.</span> <span class="nav-text">站点建立时间</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#提交"><span class="nav-number">7.</span> <span class="nav-text">提交</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#更改音乐"><span class="nav-number">8.</span> <span class="nav-text">更改音乐</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文章"><span class="nav-number">9.</span> <span class="nav-text">文章</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -663,6 +714,10 @@ https://zhuanlan.zhihu.com/p/28128674
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
